@@ -5,7 +5,7 @@
        int ceas,min, sec;
        int n, m = 60, h = 3600 , s = 60;
 
-       printf("Ceas vedennea: ");
+       printf("Введіть час: ");
        scanf("%d",&n);
 
        ceas = n / h;
