@@ -5,7 +5,7 @@
        int ceas,min, sec;
        int n, m = 60, h = 3600 , s = 60;
 
-       printf("Введіть час: ");
+       printf("\nВведіть час: ");
        scanf("%d",&n);
 
        ceas = n / h;
@@ -17,9 +17,9 @@
        min = n / m;
        }
        sec = n % s;
-
-       printf("Godina  = %d \nXvuluna = %d \nSecyndu = %d \n",ceas, min, sec );
+       printf("\n***Результат***\n");
+       printf("З початку доби пройшло годин %d хвилин %d секунд %d"
+      ,ceas, min, sec );
  
        return 0;
 }
-
